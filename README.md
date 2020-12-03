@@ -22,9 +22,11 @@ To analyze outcomes based on goals, goal ranges were first established in order 
 ![Outcomes Based on Goals: Title](https://github.com/amberteets/kickstarter-analysis/blob/main/Analysis_Screenshots/Outcomes_vs_Goals_title.png)
 ![Outcomes Based on Goals: Table](https://github.com/amberteets/kickstarter-analysis/blob/main/Analysis_Screenshots/Outcomes_vs_goal_table.png)
 
+------PLACEHOLDER TO EXPLAIN THE TABLE / ANALYSIS------
+
 ### Challenges and Difficulties Encountered
 
-
+For an inexperienced Excel user, this analysis may have presented several difficulties. 
 
 ## Results
 
