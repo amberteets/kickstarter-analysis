@@ -22,6 +22,8 @@ To analyze outcomes based on goals, goal ranges were first established in order 
 
 ### Challenges and Difficulties Encountered
 
+
+
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
@@ -32,7 +34,7 @@ In the same time period, the month with the least number of successful theater-r
 
 - What can you conclude about the Outcomes based on Goals?
 
-The
+For Kickstarter campaigns within the "plays" subcategory, the likelihood of a successful outcome is inversely correlated with funding goal for goals less than $30,000 and greater than $45,000. However, the likelihood of success increases as goal increases for goals between $30,000 and $45,000. The percentage successful for campaigns with goals between $35,000 to $45,000 is 67%, compared to success rates of 76% for campaigns with goals less than $1000 and 73% for campaigns with goals between $1000 and $5000. This indicates that campaigns within the "plays" subcategory are most likely to be successful if the goal is less than $5000, but still have a relatively high rate of success when the goal is between $35,000 and $45,000. In other words, inexpensive plays are more likely to receive adequate funding from Kickstarter; plays with high production costs are also well-backed.
 
 - What are some limitations of this dataset?
 
