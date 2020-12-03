@@ -19,6 +19,7 @@ To analyze outcomes based on launch date, a pivot table and pivot chart were cre
 
 To analyze outcomes based on goals, goal ranges were first established in order to bucket each campaign. Then the `COUNTIFS` function was used to build the following table:
 
+![Outcomes Based on Goals: Title](https://github.com/amberteets/kickstarter-analysis/blob/main/Analysis_Screenshots/Outcomes_vs_Goals_title.png)
 ![Outcomes Based on Goals: Table](https://github.com/amberteets/kickstarter-analysis/blob/main/Analysis_Screenshots/Outcomes_vs_goal_table.png)
 
 ### Challenges and Difficulties Encountered
