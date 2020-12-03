@@ -12,13 +12,14 @@ Louise is interested in using Kickstarter to fund plays. This analysis was condu
 
 To analyze outcomes based on launch date, a pivot table and pivot chart were created using the full Kickstarter dataset. The pivot table was organized and filtered (see images below) to show the relevant data.
 
-----placeholder for pictures-----
+![Outcomes Based on Launch Date: Pivot Table](https://github.com/amberteets/kickstarter-analysis/blob/main/Analysis_Screenshots/Outcomes_vs_Launch_pivot.png)
+![Outcomes Based on Launch Date: Pivot Table Field List](https://github.com/amberteets/kickstarter-analysis/blob/main/Analysis_Screenshots/Outcomes_vs_Launch_pivot_fields.png)
 
 ### Analysis of Outcomes Based on Goals
 
 To analyze outcomes based on goals, goal ranges were first established in order to bucket each campaign. Then the `COUNTIFS` function was used to build the following table:
 
-----placeholder for pictures-----
+![Outcomes Based on Goals: Table](https://github.com/amberteets/kickstarter-analysis/blob/main/Analysis_Screenshots/Outcomes_vs_goal_table.png)
 
 ### Challenges and Difficulties Encountered
 
