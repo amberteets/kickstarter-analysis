@@ -28,6 +28,8 @@ To analyze outcomes based on goals, goal ranges were first established in order 
 
 For an inexperienced Excel user, this analysis may have presented several difficulties. 
 
+------PLACEHOLDER TO EXPLAIN THE CHALLENGES------
+
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
