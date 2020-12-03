@@ -14,6 +14,9 @@ To analyze outcomes based on launch date, a pivot table and pivot chart were cre
 
 ### Analysis of Outcomes Based on Goals
 
+To analyze outcomes based on goals, goal ranges were first established in order to bucket each campaign. Then the '=COUNTIFS' function was used to build the following table:
+
+
 ### Challenges and Difficulties Encountered
 
 ## Results
