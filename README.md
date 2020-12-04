@@ -50,7 +50,7 @@ The resulting line chart (see Fig. 6) depicts the relationship between funding g
 
 #### Fig. 6: Outcomes Based on Goals - Line Chart
 
-![Outcomes Based on Goals: Chart](https://github.com/amberteets/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
+----placeholder
 
 ### Challenges and Difficulties Encountered
 
