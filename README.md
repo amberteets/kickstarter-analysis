@@ -20,7 +20,7 @@ To analyze outcomes based on launch date, a pivot table and pivot chart were cre
 
 ![Outcomes Based on Launch Date: Pivot Table Field List](https://github.com/amberteets/kickstarter-analysis/blob/main/Analysis_Screenshots/Outcomes_vs_Launch_pivot_fields.png)
 
-Then, a column was added to indicate the percentage of successful campaigns for each month of the year. Conditional formatting (color scale) was applied to the column to visually indicate the percentage successful for each month.
+Then, a column was added (see Fig. 3) to indicate the percentage of successful campaigns for each month of the year. Conditional formatting (color scale) was applied to the column to visually indicate the percentage successful for each month.
 
 #### Fig. 3: Outcomes Based on Launch Date - Percent Successful
 
@@ -28,7 +28,7 @@ Then, a column was added to indicate the percentage of successful campaigns for 
 
 ### Analysis of Outcomes Based on Goals
 
-To analyze outcomes based on goals, goal ranges were first established in order to bucket each campaign. Then the `COUNTIFS` function was used to build the following table (blue-shaded cells in the table indicate cells referenced in the `COUNTIFS` formula):
+To analyze outcomes based on goals, goal ranges were first established in order to bucket each campaign. Then the `COUNTIFS` function was used to build the following table (blue-shaded cells in the worksheet indicate cells referenced in the `COUNTIFS` formula):
 
 #### Fig. 4: Outcomes Based on Goals - Analysis Table
 
