@@ -26,11 +26,17 @@ Then, a column was added (see Fig. 3) to indicate the percentage of successful c
 
 ![Outcomes Based on Launch Date: Percent](https://github.com/amberteets/kickstarter-analysis/blob/main/Analysis_Screenshots/Outcomes_vs_Launch_Date_Percent.png)
 
+The resulting pivot chart (see Fig. 4) reveals that May has the highest number of successful campaigns and December has the least.
+
+#### Fig. 4: Outcomes Based on Launch Date - Pivot Chart
+
+![Outcomes Based on Launch Date: Pivot Chart](https://github.com/amberteets/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
+
 ### Analysis of Outcomes Based on Goals
 
 To analyze outcomes based on goals, goal ranges were first established in order to bucket each campaign. Then the `COUNTIFS` function was used to build the following table (blue-shaded cells in the worksheet indicate cells referenced in the `COUNTIFS` formula):
 
-#### Fig. 4: Outcomes Based on Goals - Analysis Table
+#### Fig. 5: Outcomes Based on Goals - Analysis Table
 
 ![Outcomes Based on Goals: Table](https://github.com/amberteets/kickstarter-analysis/blob/main/Analysis_Screenshots/Outcomes_vs_Goal_Full.png)
 
@@ -39,6 +45,10 @@ To calculate the number of successful, failed, and canceled campaigns within eac
 `=COUNTIFS(outcomes, E$5, goal, ">="&$C6, goal, "<"&$D6, subcategory, $D$2)`
 * `outcomes` refers to the Outcomes column in the dataset; `goal` refers to the Goal column and `subcategory` to the Subcategory column
 * Counts the number of "plays" (`$D$2`) campaigns of each outcome (`E$5`, `F$5`, `G$5`) with goals within the ranges specified in columns `C` and `D`
+
+The resulting line chart (see Fig. 6) depicts the relationship between funding goal and percentage of successful campaigns for Kickstarter campaigns within the "plays" subcategory.
+
+------PLACEHOLDER FOR PICTURE
 
 ### Challenges and Difficulties Encountered
 
