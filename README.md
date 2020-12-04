@@ -17,16 +17,16 @@ To analyze outcomes based on launch date, a pivot table and pivot chart were cre
 
 ### Analysis of Outcomes Based on Goals
 
-To analyze outcomes based on goals, goal ranges were first established in order to bucket each campaign. Then the `COUNTIFS` function was used to build the following table:
+To analyze outcomes based on goals, goal ranges were first established in order to bucket each campaign. Then the `COUNTIFS` function was used to build the following table (blue-shaded cells in the table indicate cells referenced in the `COUNTIFS` formula):
 
-![Outcomes Based on Goals: Title](https://github.com/amberteets/kickstarter-analysis/blob/main/Analysis_Screenshots/Outcomes_vs_Goals_title.png)
-![Outcomes Based on Goals: Table](https://github.com/amberteets/kickstarter-analysis/blob/main/Analysis_Screenshots/Outcomes_vs_goal_table.png)
+![Outcomes Based on Goals: Table](https://github.com/amberteets/kickstarter-analysis/blob/main/Analysis_Screenshots/Outcomes_vs_Goal_Full.png)
 
-To calculate the number of successful, failed, and canceled campaigns within each goal range the following representative formula was applied:
+To calculate the number of successful, failed, and canceled campaigns within each goal range the following formula was applied to cell `E6`, then copied over cells `E6:H17`:
 
 `=COUNTIFS(outcomes, E$5, goal, ">="&$C6, goal, "<"&$D6, subcategory, $D$2)`
 * `outcomes` refers to the Outcomes column in the dataset; `goal` refers to the Goal column and `subcategory` to the Subcategory column
-* `
+* Counts the number of "plays" (`$D$2`) campaigns of each outcome (`E$5`, `F$5`, `G$5`) with goals within the ranges specified in columns `C` and `D`
+
 
 ### Challenges and Difficulties Encountered
 
