@@ -20,7 +20,7 @@ To analyze outcomes based on launch date, a pivot table and pivot chart were cre
 
 ![Outcomes Based on Launch Date: Pivot Table Field List](https://github.com/amberteets/kickstarter-analysis/blob/main/Analysis_Screenshots/Outcomes_vs_Launch_pivot_fields.png)
 
-Then, a column was added to indicate the percentage of successful campaigns for each month of the year:
+Then, a column was added to indicate the percentage of successful campaigns for each month of the year. Conditional formatting (color scale) was applied to the column to visually indicate the percentage successful for each month.
 
 #### Fig. 3: Outcomes Based on Launch Date - Percent Successful
 
