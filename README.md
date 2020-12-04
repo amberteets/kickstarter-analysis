@@ -10,18 +10,31 @@ Louise, a playwright, is interested in using Kickstarter to fund her plays. This
 
 ### Analysis of Outcomes Based on Launch Date
 
-To analyze outcomes based on launch date, a pivot table and pivot chart were created using the full Kickstarter dataset. The pivot table was organized and filtered (see images below) to show the relevant data.
+To analyze outcomes based on launch date, a pivot table and pivot chart were created using the full Kickstarter dataset. The pivot table was organized and filtered (see Fig. 1 and Fig. 2 below) to show the relevant data.
+
+#### Fig. 1: Outcomes Based on Launch Date - Pivot Table
 
 ![Outcomes Based on Launch Date: Pivot Table](https://github.com/amberteets/kickstarter-analysis/blob/main/Analysis_Screenshots/Outcomes_vs_Launch_pivot.png)
+
+#### Fig. 2: Outcomes Based on Launch Date - Pivot Table Field List
+
 ![Outcomes Based on Launch Date: Pivot Table Field List](https://github.com/amberteets/kickstarter-analysis/blob/main/Analysis_Screenshots/Outcomes_vs_Launch_pivot_fields.png)
+
+Then, a column was added to indicate the percentage of successful campaigns for each month of the year:
+
+#### Fig. 3: Outcomes Based on Launch Date - Percent Successful
+
+-----placeholder for picture
 
 ### Analysis of Outcomes Based on Goals
 
 To analyze outcomes based on goals, goal ranges were first established in order to bucket each campaign. Then the `COUNTIFS` function was used to build the following table (blue-shaded cells in the table indicate cells referenced in the `COUNTIFS` formula):
 
+#### Fig. 3: Outcomes Based on Goals - Analysis Table
+
 ![Outcomes Based on Goals: Table](https://github.com/amberteets/kickstarter-analysis/blob/main/Analysis_Screenshots/Outcomes_vs_Goal_Full.png)
 
-To calculate the number of successful, failed, and canceled campaigns within each goal range the following formula was applied to cell `E6`, then copied over cells `E6:H17`:
+To calculate the number of successful, failed, and canceled campaigns within each goal range the following formula was applied to cell `E6`, then copied over cells `E6:G17`:
 
 `=COUNTIFS(outcomes, E$5, goal, ">="&$C6, goal, "<"&$D6, subcategory, $D$2)`
 * `outcomes` refers to the Outcomes column in the dataset; `goal` refers to the Goal column and `subcategory` to the Subcategory column
