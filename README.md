@@ -48,7 +48,9 @@ To calculate the number of successful, failed, and canceled campaigns within eac
 
 The resulting line chart (see Fig. 6) depicts the relationship between funding goal and percentage of successful campaigns for Kickstarter campaigns within the "plays" subcategory.
 
-------PLACEHOLDER FOR PICTURE
+#### Fig. 6: Outcomes Based on Goals - Line Chart
+
+![Outcomes Based on Goals: Chart](https://github.com/amberteets/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 
