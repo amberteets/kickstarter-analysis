@@ -24,13 +24,13 @@ Then, a column was added to indicate the percentage of successful campaigns for 
 
 #### Fig. 3: Outcomes Based on Launch Date - Percent Successful
 
------placeholder for picture
+![Outcomes Based on Launch Date: Percent](https://github.com/amberteets/kickstarter-analysis/blob/main/Analysis_Screenshots/Outcomes_vs_Launch_Date_Percent.png)
 
 ### Analysis of Outcomes Based on Goals
 
 To analyze outcomes based on goals, goal ranges were first established in order to bucket each campaign. Then the `COUNTIFS` function was used to build the following table (blue-shaded cells in the table indicate cells referenced in the `COUNTIFS` formula):
 
-#### Fig. 3: Outcomes Based on Goals - Analysis Table
+#### Fig. 4: Outcomes Based on Goals - Analysis Table
 
 ![Outcomes Based on Goals: Table](https://github.com/amberteets/kickstarter-analysis/blob/main/Analysis_Screenshots/Outcomes_vs_Goal_Full.png)
 
