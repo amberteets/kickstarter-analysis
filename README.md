@@ -42,7 +42,7 @@ To calculate the number of successful, failed, and canceled campaigns within eac
 
 ### Challenges and Difficulties Encountered
 
-For an inexperienced Excel user, this analysis may have presented difficulties. To perform the analysis of outcomes based on launch date, it may be necessary (depending on the version of Excel used) to adjust the pivot table fields and group the Years in a specific way to obtain the months of the year as the `Axis (Categories)` values. In addition, when analyzing a large dataset with many conditionals (e.g. specific categories/subcategories, goal, outcome, etc.) it can be easy to overlook or forget to apply a certain filter or conditional statemenet, leading to incorrect results. 
+For an inexperienced Excel user, this analysis may have presented difficulties. To perform the analysis of outcomes based on launch date, it may be necessary (depending on the version of Excel used) to adjust the pivot table fields and group the Years in a specific way to obtain the months of the year as the `Axis (Categories)` values. In addition, when analyzing a large dataset with many conditionals (e.g. specific categories/subcategories, goal, outcome, etc.) it can be easy to overlook or forget to apply a certain filter or conditional statement, leading to incorrect results. 
 
 ## Results
 
