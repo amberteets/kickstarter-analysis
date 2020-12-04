@@ -30,7 +30,7 @@ The resulting pivot chart (see Fig. 4) reveals that May has the highest number o
 
 #### Fig. 4: Outcomes Based on Launch Date - Pivot Chart
 
-----PLACEHOLDER FOR CHART
+![Outcomes Based on Launch Date: Pivot Chart](https://github.com/amberteets/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 
