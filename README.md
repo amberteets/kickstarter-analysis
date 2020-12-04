@@ -22,7 +22,11 @@ To analyze outcomes based on goals, goal ranges were first established in order 
 ![Outcomes Based on Goals: Title](https://github.com/amberteets/kickstarter-analysis/blob/main/Analysis_Screenshots/Outcomes_vs_Goals_title.png)
 ![Outcomes Based on Goals: Table](https://github.com/amberteets/kickstarter-analysis/blob/main/Analysis_Screenshots/Outcomes_vs_goal_table.png)
 
-------PLACEHOLDER TO EXPLAIN THE TABLE / ANALYSIS------
+To calculate the number of successful, failed, and canceled campaigns within each goal range the following representative formula was applied:
+
+`=COUNTIFS(outcomes, E$5, goal, ">="&$C6, goal, "<"&$D6, subcategory, $D$2)`
+* `outcomes` refers to the Outcomes column in the dataset; `goal` refers to the Goal column and `subcategory` to the Subcategory column
+* `
 
 ### Challenges and Difficulties Encountered
 
