@@ -4,7 +4,7 @@
 
 ### Purpose
 
-Louise is interested in using Kickstarter to fund plays. This analysis was conducted to look at trends in Kickstarter data and ultimately determine factors that influence the likelihood of a campaign succeeding, so that Louise is best prepared to launch a successful campaign. Specifically, campaign **launch date** and **funding goal** are analyzed individually to determine the best time of year and the ideal funding goal to launch a successful theater/play campaign.
+Louise, a playwright, is interested in using Kickstarter to fund her plays. This analysis was conducted to look at trends in Kickstarter data and ultimately determine factors that influence the likelihood of a campaign succeeding, so that Louise is best prepared to launch a successful campaign. Specifically, campaign **launch date** and **funding goal** are analyzed individually to determine the best time of year and the ideal funding goal to launch a successful theater/play campaign.
 
 ## Analysis and Challenges
 
@@ -27,12 +27,9 @@ To calculate the number of successful, failed, and canceled campaigns within eac
 * `outcomes` refers to the Outcomes column in the dataset; `goal` refers to the Goal column and `subcategory` to the Subcategory column
 * Counts the number of "plays" (`$D$2`) campaigns of each outcome (`E$5`, `F$5`, `G$5`) with goals within the ranges specified in columns `C` and `D`
 
-
 ### Challenges and Difficulties Encountered
 
-For an inexperienced Excel user, this analysis may have presented several difficulties. 
-
-------PLACEHOLDER TO EXPLAIN THE CHALLENGES------
+For an inexperienced Excel user, this analysis may have presented difficulties. To perform the analysis of outcomes based on launch date, it may be necessary (depending on the version of Excel used) to adjust the pivot table fields and group the Years in a specific way to obtain the months of the year as the `Axis (Categories)` values. In addition, when analyzing a large dataset with many conditionals (e.g. specific categories/subcategories, goal, outcome, etc.) it can be easy to overlook or forget to apply a certain filter or conditional statemenet, leading to incorrect results. 
 
 ## Results
 
